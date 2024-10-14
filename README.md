@@ -2,8 +2,9 @@
 
 > TextGuru is a versatile text expansion tool aimed at enhancing your typing efficiency. It allows users to create custom shortcuts that automatically expand into pre-defined phrases, sentences, or even commands. Running seamlessly in the background, it helps reduce repetitive typing, making it ideal for professionals and anyone seeking to optimize their workflow and save time.
 
-**DO NOT OPEN OR DELETE THE JSON FILE**
+**_Check the Release for TextGuru.zip for the tool._**
 
+**DO NOT OPEN OR DELETE THE JSON FILE**
 
 ## How to Store Shortcuts:
 
