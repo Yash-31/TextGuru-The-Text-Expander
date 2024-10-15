@@ -2,7 +2,7 @@
 
 > TextGuru is a versatile text expansion tool aimed at enhancing your typing efficiency. It allows users to create custom shortcuts that automatically expand into pre-defined phrases, sentences, or even commands. Running seamlessly in the background, it helps reduce repetitive typing, making it ideal for professionals and anyone seeking to optimize their workflow and save time.
 
-**_Check the Release for TextGuru.zip for the tool._**
+**_Check the Release for TextGuru.exe for the tool._**
 
 **DO NOT OPEN OR DELETE THE JSON FILE**
 
@@ -35,3 +35,10 @@ Here "`check`" is the short word and "`This is a test`" is corresponding Expansi
 ### Congratulations!!! Now you can use tool without problems.
 
 ### Happy Expanding!
+
+## About the Tool
+**TextGuru** is a text expander tool built using `Python`. It primarily utilizes the `pynput` library to listen to `keyboard inputs`, expanding user-defined shortcuts into full text phrases. The `PyQt5` library is employed to create a graphical user interface (GUI) where users can toggle between play/pause modes and stop the script. The expansion logic relies on continuously monitoring typed sequences, matching them with predefined shortcuts stored in external files (`.txt` and `.json`), and expanding them into longer phrases.
+
+The tool handles expansion by tracking user input with `pynput.keyboard.Listener`, and when a shortcut is detected, the input is replaced with the expanded text. The `keyboard listener` is paused during the expansion to avoid interference, and shortcut configurations are loaded from files. The code also integrates password detection logic to prevent storage of passwords in the `.txt` file.
+
+In summary, **TextGuru** works by combining keyboard event monitoring, text expansion logic, and a simple, interactive GUI for user control, ensuring smooth, controlled expansions.
